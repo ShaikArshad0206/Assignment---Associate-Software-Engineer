@@ -3,8 +3,6 @@ function reverseWords(sentence) {
         return word.split('').reverse().join('');
     }).join('');
 }
-
-// Example usage
 var inputSentence = "This is a sunny day";
 var reversedSentence = reverseWords(inputSentence);
 console.log(reversedSentence);
